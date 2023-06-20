@@ -18,3 +18,12 @@ The following environment variables can be used to configure lemmy-ui:
 | `LEMMY_UI_DEBUG`               | `bool`   | `false`          | Loads the [Eruda](https://github.com/liriliri/eruda) debugging utility.             |
 | `LEMMY_UI_DISABLE_CSP`         | `bool`   | `false`          | Disables CSP security headers                                                       |
 | `LEMMY_UI_CUSTOM_HTML_HEADER`  | `string` |                  | Injects a custom script into `<head>`.                                              |
+
+## Development
+
+1. `git clone https://github.com/LemmyNet/lemmy-ui`
+2. `cd lemmy-ui`
+3. `git submodule update --init`
+4. `yarn`
+5. `yarn dev`
+6. Hack away!
